@@ -97,6 +97,12 @@
 		FF8B2AA92CCBA05500802C6B /* TigerTorqueToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA82CCBA05400802C6B /* TigerTorqueToastStyle.swift */; };
 		FF8B2AAB2CCBA07B00802C6B /* TigerTorqueToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAA2CCBA07900802C6B /* TigerTorqueToastManager.swift */; };
 		FF8B2AAD2CCBA09B00802C6B /* TigerTorqueToastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAC2CCBA09B00802C6B /* TigerTorqueToastPosition.swift */; };
+		FF8B2AAF2CCBAE1C00802C6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AAE2CCBAE1C00802C6B /* GoogleService-Info.plist */; };
+		FF8B2AB72CCBB31600802C6B /* TigerTorqueUUDInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AB42CCBB31600802C6B /* TigerTorqueUUDInstance.m */; };
+		FF8B2AB82CCBB31600802C6B /* TigerTorqueReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AB22CCBB31600802C6B /* TigerTorqueReachManager.m */; };
+		FF8B2AB92CCBB31600802C6B /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AB62CCBB31600802C6B /* UIViewController+Extentsion.m */; };
+		FF8B2ABC2CCBBA5100802C6B /* MetricFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2ABA2CCBBA5100802C6B /* MetricFormulaVC.swift */; };
+		FF8B2ABD2CCBBA5100802C6B /* MetricVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2ABB2CCBBA5100802C6B /* MetricVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +202,16 @@
 		FF8B2AA82CCBA05400802C6B /* TigerTorqueToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastStyle.swift; sourceTree = "<group>"; };
 		FF8B2AAA2CCBA07900802C6B /* TigerTorqueToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastManager.swift; sourceTree = "<group>"; };
 		FF8B2AAC2CCBA09B00802C6B /* TigerTorqueToastPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastPosition.swift; sourceTree = "<group>"; };
+		FF8B2AAE2CCBAE1C00802C6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF8B2AB02CCBB28A00802C6B /* TigerTorqueForceMotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TigerTorqueForceMotion.entitlements; sourceTree = "<group>"; };
+		FF8B2AB12CCBB31600802C6B /* TigerTorqueReachManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TigerTorqueReachManager.h; sourceTree = "<group>"; };
+		FF8B2AB22CCBB31600802C6B /* TigerTorqueReachManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerTorqueReachManager.m; sourceTree = "<group>"; };
+		FF8B2AB32CCBB31600802C6B /* TigerTorqueUUDInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TigerTorqueUUDInstance.h; sourceTree = "<group>"; };
+		FF8B2AB42CCBB31600802C6B /* TigerTorqueUUDInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerTorqueUUDInstance.m; sourceTree = "<group>"; };
+		FF8B2AB52CCBB31600802C6B /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
+		FF8B2AB62CCBB31600802C6B /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
+		FF8B2ABA2CCBBA5100802C6B /* MetricFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2ABB2CCBBA5100802C6B /* MetricVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +264,8 @@
 		FF8B29E82CCB97B900802C6B /* TigerTorqueForceMotion */ = {
 			isa = PBXGroup;
 			children = (
+				FF8B2AB02CCBB28A00802C6B /* TigerTorqueForceMotion.entitlements */,
+				FF8B2AAE2CCBAE1C00802C6B /* GoogleService-Info.plist */,
 				FF8B29DF2CCB97B900802C6B /* AppDelegate.swift */,
 				FF8B29E62CCB97B900802C6B /* SceneDelegate.swift */,
 				FF8B2AA02CCB9DA100802C6B /* TigerTorqueNavigationController.swift */,
@@ -262,6 +280,12 @@
 				FF8B29E52CCB97B900802C6B /* Main.storyboard */,
 				FF8B29E72CCB97B900802C6B /* ViewController.swift */,
 				FF8B2AA42CCB9F4600802C6B /* TigerTorqueForceMotion-Bridging-Header.h */,
+				FF8B2AB12CCBB31600802C6B /* TigerTorqueReachManager.h */,
+				FF8B2AB22CCBB31600802C6B /* TigerTorqueReachManager.m */,
+				FF8B2AB32CCBB31600802C6B /* TigerTorqueUUDInstance.h */,
+				FF8B2AB42CCBB31600802C6B /* TigerTorqueUUDInstance.m */,
+				FF8B2AB52CCBB31600802C6B /* UIViewController+Extentsion.h */,
+				FF8B2AB62CCBB31600802C6B /* UIViewController+Extentsion.m */,
 			);
 			path = TigerTorqueForceMotion;
 			sourceTree = "<group>";
@@ -441,6 +465,8 @@
 		FF8B2A4B2CCB9BE600802C6B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FF8B2ABA2CCBBA5100802C6B /* MetricFormulaVC.swift */,
+				FF8B2ABB2CCBBA5100802C6B /* MetricVC.swift */,
 				FF8B2A3F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift */,
 				FF8B2A402CCB9BE600802C6B /* TigerTorqueCylinderVC.swift */,
 				FF8B2A412CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift */,
@@ -491,6 +517,8 @@
 				FF8B29C32CCB97B400802C6B /* Sources */,
 				FF8B29C42CCB97B400802C6B /* Frameworks */,
 				FF8B29C52CCB97B400802C6B /* Resources */,
+				E1F6C6BEA2C3D1F88CE240F4 /* [CP] Embed Pods Frameworks */,
+				2FF1FFB8EFCE3BB6F27E7A81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -559,6 +587,7 @@
 				FF8B2A952CCB9BE600802C6B /* Poppins-BoldItalic.ttf in Resources */,
 				FF8B2A962CCB9BE600802C6B /* Poppins-Italic.ttf in Resources */,
 				FF8B2A982CCB9BE600802C6B /* Poppins-Light.ttf in Resources */,
+				FF8B2AAF2CCBAE1C00802C6B /* GoogleService-Info.plist in Resources */,
 				FF8B2A992CCB9BE600802C6B /* Poppins-BlackItalic.ttf in Resources */,
 				FF8B2A9A2CCB9BE600802C6B /* Poppins-Black.ttf in Resources */,
 				FF8B2A9B2CCB9BE600802C6B /* Poppins-ExtraBold.ttf in Resources */,
@@ -568,6 +597,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2FF1FFB8EFCE3BB6F27E7A81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D4F4B38D295CF36286D9CFF3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,6 +634,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F6C6BEA2C3D1F88CE240F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -646,12 +709,17 @@
 				FF8B2A742CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */,
 				FF8B2A752CCB9BE600802C6B /* IQKeyboardManager+Position.swift in Sources */,
 				FF8B2A762CCB9BE600802C6B /* TigerTorqueFormulaVC.swift in Sources */,
+				FF8B2AB72CCBB31600802C6B /* TigerTorqueUUDInstance.m in Sources */,
+				FF8B2AB82CCBB31600802C6B /* TigerTorqueReachManager.m in Sources */,
+				FF8B2AB92CCBB31600802C6B /* UIViewController+Extentsion.m in Sources */,
 				FF8B2A772CCB9BE600802C6B /* IQUICollectionView+Additions.swift in Sources */,
 				FF8B2A782CCB9BE600802C6B /* IQRootControllerConfiguration.swift in Sources */,
 				FF8B2A792CCB9BE600802C6B /* IQUITableView+Additions.swift in Sources */,
 				FF8B2A7A2CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift in Sources */,
 				FF8B2A7B2CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
 				FF8B2A7C2CCB9BE600802C6B /* IQNSArray+Sort.swift in Sources */,
+				FF8B2ABC2CCBBA5100802C6B /* MetricFormulaVC.swift in Sources */,
+				FF8B2ABD2CCBBA5100802C6B /* MetricVC.swift in Sources */,
 				FF8B2A7D2CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift in Sources */,
 				FF8B2A7E2CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift in Sources */,
 				FF8B2A7F2CCB9BE600802C6B /* IQTextView.swift in Sources */,
@@ -696,11 +764,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TigerTorqueForceMotion/TigerTorqueForceMotion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TigerTorqueForceMotion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Torque ForceMotion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tiger Torque ForceMotion needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Tiger Torque ForceMotion needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Tiger Torque ForceMotion needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tiger Torque ForceMotion needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -731,11 +805,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TigerTorqueForceMotion/TigerTorqueForceMotion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TigerTorqueForceMotion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Torque ForceMotion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tiger Torque ForceMotion needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Tiger Torque ForceMotion needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Tiger Torque ForceMotion needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tiger Torque ForceMotion needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

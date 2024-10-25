@@ -40,7 +40,7 @@ class TigerTorqueHomeVC: UIViewController {
     }
     
     @IBAction func TapOnTorqueMetric(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MetricFormulaVC") as! TigerTorqueMetricFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MetricFormulaVC") as! MetricFormulaVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

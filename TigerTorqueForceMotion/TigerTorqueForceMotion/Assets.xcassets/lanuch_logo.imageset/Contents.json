@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "lanuch_logo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "TigerTorqueForceMotion.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

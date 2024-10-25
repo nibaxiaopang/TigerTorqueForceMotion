@@ -20,8 +20,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="TWk-Vr-oHf">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="trE-Pq-UwI">
-                                <rect key="frame" x="76.666666666666686" y="306" width="240" height="240"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lanuch_logo" translatesAutoresizingMaskIntoConstraints="NO" id="trE-Pq-UwI">
+                                <rect key="frame" x="76.666666666666686" y="256" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="XNR-MZ-xnp"/>
                                     <constraint firstAttribute="height" constant="240" id="cUB-af-c0g"/>
@@ -35,7 +35,7 @@
                             <constraint firstItem="trE-Pq-UwI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FbS-3t-jth"/>
                             <constraint firstAttribute="bottom" secondItem="TWk-Vr-oHf" secondAttribute="bottom" id="Jee-PD-6I6"/>
                             <constraint firstAttribute="trailing" secondItem="TWk-Vr-oHf" secondAttribute="trailing" id="T79-P6-Y5m"/>
-                            <constraint firstItem="trE-Pq-UwI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VeL-hQ-sle"/>
+                            <constraint firstItem="trE-Pq-UwI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="VeL-hQ-sle"/>
                             <constraint firstItem="TWk-Vr-oHf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mEz-NX-f9n"/>
                         </constraints>
                     </view>
@@ -47,7 +47,7 @@
     </scenes>
     <resources>
         <image name="bg" width="1024" height="1792"/>
-        <image name="logo" width="1024" height="1024"/>
+        <image name="lanuch_logo" width="900" height="900"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

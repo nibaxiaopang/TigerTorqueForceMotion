@@ -6,5 +6,6 @@ target 'TigerTorqueForceMotion' do
   use_frameworks!
 
   # Pods for TigerTorqueForceMotion
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

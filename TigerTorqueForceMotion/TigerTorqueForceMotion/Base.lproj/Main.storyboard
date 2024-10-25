@@ -509,9 +509,6 @@ RPM Revolution per minute</string>
                                     <action selector="TapOnStar:" destination="fSj-Em-XT9" eventType="touchUpInside" id="kyq-xU-xXi"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="ixE-iF-Tvc">
-                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
-                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8z-bn-0qK">
                                 <rect key="frame" x="20" y="417" width="353" height="60"/>
                                 <color key="backgroundColor" name="btn"/>
@@ -536,6 +533,9 @@ RPM Revolution per minute</string>
                                     <segue destination="2iO-Qk-T6U" kind="push" id="FQD-Yy-YeU"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="UOg-2k-4hG">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bTX-gg-Ewx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -547,14 +547,14 @@ RPM Revolution per minute</string>
                             <constraint firstItem="bTX-gg-Ewx" firstAttribute="bottom" secondItem="NuF-RD-aWC" secondAttribute="bottom" constant="10" id="VQb-jc-SYj"/>
                             <constraint firstItem="bTX-gg-Ewx" firstAttribute="trailing" secondItem="T8z-bn-0qK" secondAttribute="trailing" constant="20" id="Wi2-dA-ajA"/>
                             <constraint firstItem="T8z-bn-0qK" firstAttribute="leading" secondItem="bTX-gg-Ewx" secondAttribute="leading" constant="20" id="Ws1-2D-Eox"/>
-                            <constraint firstItem="ixE-iF-Tvc" firstAttribute="centerY" secondItem="wOI-fb-erI" secondAttribute="centerY" id="XPV-oh-qNF"/>
+                            <constraint firstItem="UOg-2k-4hG" firstAttribute="centerY" secondItem="wOI-fb-erI" secondAttribute="centerY" id="Z1Z-K7-nFc"/>
                             <constraint firstItem="K5U-YB-bEc" firstAttribute="top" secondItem="wOI-fb-erI" secondAttribute="top" id="ZPR-KA-7bO"/>
                             <constraint firstItem="bTX-gg-Ewx" firstAttribute="trailing" secondItem="VbU-Qe-Uld" secondAttribute="trailing" constant="20" id="b3e-Wv-LPo"/>
                             <constraint firstItem="AQC-cv-LiG" firstAttribute="top" secondItem="RAO-Rp-JD4" secondAttribute="bottom" constant="25" id="bT8-uW-cTm"/>
                             <constraint firstItem="K5U-YB-bEc" firstAttribute="leading" secondItem="wOI-fb-erI" secondAttribute="leading" id="dZR-ip-U6W"/>
-                            <constraint firstItem="ixE-iF-Tvc" firstAttribute="centerX" secondItem="wOI-fb-erI" secondAttribute="centerX" id="hk1-Ue-g5D"/>
                             <constraint firstItem="VbU-Qe-Uld" firstAttribute="top" secondItem="AQC-cv-LiG" secondAttribute="bottom" constant="25" id="iTH-e0-qPt"/>
                             <constraint firstItem="T8z-bn-0qK" firstAttribute="top" secondItem="VbU-Qe-Uld" secondAttribute="bottom" constant="10" id="n5v-Ge-NbB"/>
+                            <constraint firstItem="UOg-2k-4hG" firstAttribute="centerX" secondItem="wOI-fb-erI" secondAttribute="centerX" id="pwH-1q-ue9"/>
                             <constraint firstItem="RAO-Rp-JD4" firstAttribute="top" secondItem="bTX-gg-Ewx" secondAttribute="top" constant="10" id="qsw-V0-AxV"/>
                             <constraint firstItem="bTX-gg-Ewx" firstAttribute="trailing" secondItem="RAO-Rp-JD4" secondAttribute="trailing" constant="20" id="tbl-uv-3jh"/>
                             <constraint firstAttribute="bottom" secondItem="K5U-YB-bEc" secondAttribute="bottom" id="tyz-kC-nWb"/>
@@ -563,6 +563,12 @@ RPM Revolution per minute</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wy7-Lj-5kg"/>
+                    <connections>
+                        <outlet property="adsActivityView" destination="UOg-2k-4hG" id="1AN-n2-YLR"/>
+                        <outlet property="ppBtn" destination="T8z-bn-0qK" id="WbX-xR-St5"/>
+                        <outlet property="stackView" destination="VbU-Qe-Uld" id="nO2-nZ-mwP"/>
+                        <outlet property="startBtn" destination="NuF-RD-aWC" id="Aik-U4-yMk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byv-Jp-w4E" sceneMemberID="firstResponder"/>
             </objects>
@@ -898,6 +904,9 @@ RPM Revolution per minute</string>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="popAction:" destination="2iO-Qk-T6U" eventType="touchUpInside" id="G1d-Tf-d5b"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="J5q-1C-0L8">
                                 <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
@@ -917,6 +926,13 @@ RPM Revolution per minute</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gph-Sg-UoO"/>
+                    <connections>
+                        <outlet property="BackBtn" destination="8gz-6e-9dw" id="kNE-sO-ANz"/>
+                        <outlet property="bottomCos" destination="HZz-oG-wqF" id="Zvq-AQ-pgw"/>
+                        <outlet property="idcView" destination="J5q-1C-0L8" id="e7J-7n-Ax4"/>
+                        <outlet property="topCos" destination="TMm-Pn-X72" id="oOl-oi-sl2"/>
+                        <outlet property="wbView" destination="t2P-ga-I8A" id="3FK-jx-jfo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tc4-bt-lUc" sceneMemberID="firstResponder"/>
             </objects>
@@ -1639,7 +1655,7 @@ p Pressure</string>
         <!--Metric FormulaVC-->
         <scene sceneID="S7S-9R-c9S">
             <objects>
-                <viewController storyboardIdentifier="MetricFormulaVC" id="XbS-dj-zvO" customClass="MetricFormulaVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MetricFormulaVC" id="XbS-dj-zvO" customClass="MetricFormulaVC" customModule="TigerTorqueForceMotion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a1u-dD-RG6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1761,7 +1777,7 @@ RPM Revolution per minute</string>
         <!--MetricVC-->
         <scene sceneID="Rhs-5Y-qVj">
             <objects>
-                <viewController storyboardIdentifier="MetricVC" id="jZ8-F8-hry" customClass="MetricVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MetricVC" id="jZ8-F8-hry" customClass="MetricVC" customModule="TigerTorqueForceMotion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c96-Wb-qmp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2185,7 +2201,7 @@ p Pressure</string>
         <image name="bg" width="1024" height="1792"/>
         <image name="cylinder" width="310" height="100"/>
         <image name="force" width="247" height="87"/>
-        <image name="logo" width="1024" height="1024"/>
+        <image name="logo" width="341.33334350585938" height="341.33334350585938"/>
         <image name="metric" width="268" height="113"/>
         <image name="power" width="241" height="115"/>
         <image name="torque" width="245" height="119"/>
