@@ -1,6 +1,6 @@
 //
 //  StartVC.swift
-//  TorqueForceMotion
+//  Tiger Torque ForceMotion
 //
 //  Created by Mac on 23/10/24.
 //
@@ -18,7 +18,7 @@ class TigerTorqueStartVC: UIViewController, UNUserNotificationCenterDelegate {
 
     
     @IBAction func TapONShare(_ sender: Any) {
-        let objectsToShare = ["TorqueForceMotion"]
+        let objectsToShare = ["Tiger Torque ForceMotion"]
         let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         activityVC.popoverPresentationController?.sourceRect = CGRect(x: 100, y: 200, width: 300, height: 300)

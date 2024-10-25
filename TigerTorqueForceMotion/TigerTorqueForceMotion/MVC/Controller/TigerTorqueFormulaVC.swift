@@ -1,6 +1,6 @@
 //
 //  TorqueFormulaVC.swift
-//  TorqueForceMotion
+//  Tiger Torque ForceMotion
 //
 //  Created by Mac on 23/10/24.
 //
