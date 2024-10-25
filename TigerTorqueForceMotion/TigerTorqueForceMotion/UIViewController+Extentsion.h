@@ -1,8 +1,8 @@
 //
 //  UIViewController+Extentsion.h
-//  RatSpiFind
+//  Tiger Torque ForceMotion
 //
-//  Created by RatSpiFind on 2024/8/2.
+//  Created by Tiger Torque ForceMotion on 2024/8/2.
 //
 
 #import <UIKit/UIKit.h>

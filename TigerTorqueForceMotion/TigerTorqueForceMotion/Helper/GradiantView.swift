@@ -2,7 +2,7 @@
 //  GradiantView.swift
 //  TigerTorqueForceMotion
 //
-//  Created by jin fu on 2024/10/25.
+//  Created by Tiger Torque ForceMotion on 2024/10/25.
 //
 
 import UIKit

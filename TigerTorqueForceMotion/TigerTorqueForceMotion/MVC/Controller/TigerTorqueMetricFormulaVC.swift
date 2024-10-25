@@ -2,7 +2,7 @@
 //  MetricFormulaViewController.swift
 //  Tiger Torque ForceMotion
 //
-//  Created by Mac on 24/10/24.
+//  Created by Tiger Torque ForceMotion on 24/10/24.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  MetricFormulaVC.swift
 //  TTHorseFind
 //
-//  Created by mac on 23/10/24.
+//  Created by Tiger Torque ForceMotion on 23/10/24.
 //
 
 import UIKit

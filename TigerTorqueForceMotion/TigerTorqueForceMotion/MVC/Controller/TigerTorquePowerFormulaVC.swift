@@ -2,7 +2,7 @@
 //  PowerFormulaVC.swift
 //  Tiger Torque ForceMotion
 //
-//  Created by Mac on 23/10/24.
+//  Created by Tiger Torque ForceMotion on 23/10/24.
 //
 
 import UIKit
