@@ -44,7 +44,19 @@ class TigerTorqueStartVC: UIViewController, UNUserNotificationCenterDelegate {
     }
     
     @IBAction func TapOnRate(_ sender: Any) {
-        SKStoreReviewController.requestReview()
+        if #available(iOS 18.0, *) {
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                AppStore.requestReview(in: windowScene)
+            }
+        } else {
+            if let windowScene = UIApplication.shared.windows.first?.windowScene {
+                if #available(iOS 14.0, *) {
+                    SKStoreReviewController.requestReview(in: windowScene)
+                } else {
+                    SKStoreReviewController.requestReview()
+                }
+            }
+        }
     }
     
     @IBAction func TapOnStar(_ sender: Any) {
