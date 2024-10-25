@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB33E3434BB6CCA1F65FEA98 /* Pods_TigerTorqueForceMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802F2AA0A00719532D46EB37 /* Pods_TigerTorqueForceMotion.framework */; };
+		FF8B29E92CCB97B900802C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29DF2CCB97B900802C6B /* AppDelegate.swift */; };
+		FF8B29EA2CCB97B900802C6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29E62CCB97B900802C6B /* SceneDelegate.swift */; };
+		FF8B29EB2CCB97B900802C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29E72CCB97B900802C6B /* ViewController.swift */; };
+		FF8B29EC2CCB97B900802C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B29E02CCB97B900802C6B /* Assets.xcassets */; };
+		FF8B29EE2CCB97B900802C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B29E32CCB97B900802C6B /* LaunchScreen.storyboard */; };
+		FF8B29EF2CCB97B900802C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B29E52CCB97B900802C6B /* Main.storyboard */; };
+		FF8B2A4F2CCB9BE600802C6B /* IQToolbarPlaceholderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F62CCB9BE600802C6B /* IQToolbarPlaceholderConfiguration.swift */; };
+		FF8B2A502CCB9BE600802C6B /* IQKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A142CCB9BE600802C6B /* IQKeyboardListener.swift */; };
+		FF8B2A512CCB9BE600802C6B /* IQPlaceholderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A062CCB9BE600802C6B /* IQPlaceholderable.swift */; };
+		FF8B2A522CCB9BE600802C6B /* IQKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A112CCB9BE600802C6B /* IQKeyboardInfo.swift */; };
+		FF8B2A532CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FF2CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift */; };
+		FF8B2A542CCB9BE600802C6B /* KFDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A3C2CCB9BE600802C6B /* KFDesignable.swift */; };
+		FF8B2A552CCB9BE600802C6B /* TigerTorqueMetricVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A452CCB9BE600802C6B /* TigerTorqueMetricVC.swift */; };
+		FF8B2A562CCB9BE600802C6B /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A092CCB9BE600802C6B /* IQBarButtonItem.swift */; };
+		FF8B2A572CCB9BE600802C6B /* TigerTorqueForceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A422CCB9BE600802C6B /* TigerTorqueForceVC.swift */; };
+		FF8B2A582CCB9BE600802C6B /* IQToolbarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F52CCB9BE600802C6B /* IQToolbarConfiguration.swift */; };
+		FF8B2A592CCB9BE600802C6B /* UIImage+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A232CCB9BE600802C6B /* UIImage+NextPrevious.swift */; };
+		FF8B2A5A2CCB9BE600802C6B /* IQTextFieldViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A122CCB9BE600802C6B /* IQTextFieldViewInfo.swift */; };
+		FF8B2A5B2CCB9BE600802C6B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0D2CCB9BE600802C6B /* IQToolbar.swift */; };
+		FF8B2A5C2CCB9BE600802C6B /* IQBarButtonItemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F12CCB9BE600802C6B /* IQBarButtonItemConfiguration.swift */; };
+		FF8B2A5D2CCB9BE600802C6B /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0A2CCB9BE600802C6B /* IQInvocation.swift */; };
+		FF8B2A5E2CCB9BE600802C6B /* IQKeyboardManager+Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FC2CCB9BE600802C6B /* IQKeyboardManager+Deprecated.swift */; };
+		FF8B2A5F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A3F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift */; };
+		FF8B2A602CCB9BE600802C6B /* IQActiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F02CCB9BE600802C6B /* IQActiveConfiguration.swift */; };
+		FF8B2A612CCB9BE600802C6B /* TigerTorquePowerFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A462CCB9BE600802C6B /* TigerTorquePowerFormulaVC.swift */; };
+		FF8B2A622CCB9BE600802C6B /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0E2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbar.swift */; };
+		FF8B2A632CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A412CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift */; };
+		FF8B2A642CCB9BE600802C6B /* TigerTorqueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A4A2CCB9BE600802C6B /* TigerTorqueVC.swift */; };
+		FF8B2A652CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A022CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		FF8B2A662CCB9BE600802C6B /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FB2CCB9BE600802C6B /* IQKeyboardManager+Debug.swift */; };
+		FF8B2A672CCB9BE600802C6B /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F82CCB9BE600802C6B /* IQKeyboardManagerConstants.swift */; };
+		FF8B2A682CCB9BE600802C6B /* TigerTorqueCylinderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A402CCB9BE600802C6B /* TigerTorqueCylinderVC.swift */; };
+		FF8B2A692CCB9BE600802C6B /* IQKeyboardManagerCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A042CCB9BE600802C6B /* IQKeyboardManagerCompatible.swift */; };
+		FF8B2A6A2CCB9BE600802C6B /* TigerTorquePowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A472CCB9BE600802C6B /* TigerTorquePowerVC.swift */; };
+		FF8B2A6B2CCB9BE600802C6B /* TigerTorqueHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A432CCB9BE600802C6B /* TigerTorqueHomeVC.swift */; };
+		FF8B2A6C2CCB9BE600802C6B /* TigerTorqueStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A482CCB9BE600802C6B /* TigerTorqueStartVC.swift */; };
+		FF8B2A6D2CCB9BE600802C6B /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A222CCB9BE600802C6B /* IQUIViewController+Additions.swift */; };
+		FF8B2A6E2CCB9BE600802C6B /* IQTextFieldViewListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A152CCB9BE600802C6B /* IQTextFieldViewListener.swift */; };
+		FF8B2A6F2CCB9BE600802C6B /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A202CCB9BE600802C6B /* IQUITextFieldView+Additions.swift */; };
+		FF8B2A702CCB9BE600802C6B /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A1E2CCB9BE600802C6B /* IQUIScrollView+Additions.swift */; };
+		FF8B2A712CCB9BE600802C6B /* IQScrollViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F42CCB9BE600802C6B /* IQScrollViewConfiguration.swift */; };
+		FF8B2A722CCB9BE600802C6B /* IQTextFieldViewInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A1A2CCB9BE600802C6B /* IQTextFieldViewInfoModel.swift */; };
+		FF8B2A732CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A182CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift */; };
+		FF8B2A742CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0F2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift */; };
+		FF8B2A752CCB9BE600802C6B /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FE2CCB9BE600802C6B /* IQKeyboardManager+Position.swift */; };
+		FF8B2A762CCB9BE600802C6B /* TigerTorqueFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A492CCB9BE600802C6B /* TigerTorqueFormulaVC.swift */; };
+		FF8B2A772CCB9BE600802C6B /* IQUICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A1D2CCB9BE600802C6B /* IQUICollectionView+Additions.swift */; };
+		FF8B2A782CCB9BE600802C6B /* IQRootControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F32CCB9BE600802C6B /* IQRootControllerConfiguration.swift */; };
+		FF8B2A792CCB9BE600802C6B /* IQUITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A1F2CCB9BE600802C6B /* IQUITableView+Additions.swift */; };
+		FF8B2A7A2CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A442CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift */; };
+		FF8B2A7B2CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A012CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift */; };
+		FF8B2A7C2CCB9BE600802C6B /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A1C2CCB9BE600802C6B /* IQNSArray+Sort.swift */; };
+		FF8B2A7D2CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A002CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift */; };
+		FF8B2A7E2CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A192CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift */; };
+		FF8B2A7F2CCB9BE600802C6B /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A072CCB9BE600802C6B /* IQTextView.swift */; };
+		FF8B2A802CCB9BE600802C6B /* IQKeyboardConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29F22CCB9BE600802C6B /* IQKeyboardConfiguration.swift */; };
+		FF8B2A812CCB9BE600802C6B /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FD2CCB9BE600802C6B /* IQKeyboardManager+Internal.swift */; };
+		FF8B2A822CCB9BE600802C6B /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A212CCB9BE600802C6B /* IQUIView+Hierarchy.swift */; };
+		FF8B2A832CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A172CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift */; };
+		FF8B2A842CCB9BE600802C6B /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0C2CCB9BE600802C6B /* IQTitleBarButtonItem.swift */; };
+		FF8B2A852CCB9BE600802C6B /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A0B2CCB9BE600802C6B /* IQPreviousNextView.swift */; };
+		FF8B2A862CCB9BE600802C6B /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B29FA2CCB9BE600802C6B /* IQKeyboardManager.swift */; };
+		FF8B2A872CCB9BE600802C6B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A3D2CCB9BE600802C6B /* Toast.swift */; };
+		FF8B2A882CCB9BE600802C6B /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2E2CCB9BE600802C6B /* Poppins-ExtraBoldItalic.ttf */; };
+		FF8B2A892CCB9BE600802C6B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A372CCB9BE600802C6B /* Poppins-SemiBold.ttf */; };
+		FF8B2A8A2CCB9BE600802C6B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2B2CCB9BE600802C6B /* Poppins-Bold.ttf */; };
+		FF8B2A8B2CCB9BE600802C6B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A3A2CCB9BE600802C6B /* Poppins-ThinItalic.ttf */; };
+		FF8B2A8C2CCB9BE600802C6B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A342CCB9BE600802C6B /* Poppins-Medium.ttf */; };
+		FF8B2A8D2CCB9BE600802C6B /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A332CCB9BE600802C6B /* Poppins-LightItalic.ttf */; };
+		FF8B2A8E2CCB9BE600802C6B /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A302CCB9BE600802C6B /* Poppins-ExtraLightItalic.ttf */; };
+		FF8B2A8F2CCB9BE600802C6B /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A382CCB9BE600802C6B /* Poppins-SemiBoldItalic.ttf */; };
+		FF8B2A902CCB9BE600802C6B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A392CCB9BE600802C6B /* Poppins-Thin.ttf */; };
+		FF8B2A912CCB9BE600802C6B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A352CCB9BE600802C6B /* Poppins-MediumItalic.ttf */; };
+		FF8B2A922CCB9BE600802C6B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A282CCB9BE600802C6B /* OFL.txt */; };
+		FF8B2A932CCB9BE600802C6B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A362CCB9BE600802C6B /* Poppins-Regular.ttf */; };
+		FF8B2A942CCB9BE600802C6B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2F2CCB9BE600802C6B /* Poppins-ExtraLight.ttf */; };
+		FF8B2A952CCB9BE600802C6B /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2C2CCB9BE600802C6B /* Poppins-BoldItalic.ttf */; };
+		FF8B2A962CCB9BE600802C6B /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A312CCB9BE600802C6B /* Poppins-Italic.ttf */; };
+		FF8B2A982CCB9BE600802C6B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A322CCB9BE600802C6B /* Poppins-Light.ttf */; };
+		FF8B2A992CCB9BE600802C6B /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2A2CCB9BE600802C6B /* Poppins-BlackItalic.ttf */; };
+		FF8B2A9A2CCB9BE600802C6B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A292CCB9BE600802C6B /* Poppins-Black.ttf */; };
+		FF8B2A9B2CCB9BE600802C6B /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2A2D2CCB9BE600802C6B /* Poppins-ExtraBold.ttf */; };
+		FF8B2A9D2CCB9C9C00802C6B /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A9C2CCB9C9B00802C6B /* GradiantView.swift */; };
+		FF8B2A9F2CCB9CBF00802C6B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A9E2CCB9CBE00802C6B /* DesignableView.swift */; };
+		FF8B2AA12CCB9DA100802C6B /* TigerTorqueNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA02CCB9DA100802C6B /* TigerTorqueNavigationController.swift */; };
+		FF8B2AA72CCB9F4600802C6B /* TigerTorquePrivacyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA62CCB9F4600802C6B /* TigerTorquePrivacyVC.m */; };
+		FF8B2AA92CCBA05500802C6B /* ToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */; };
+		FF8B2AAB2CCBA07B00802C6B /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */; };
+		FF8B2AAD2CCBA09B00802C6B /* ToastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		802F2AA0A00719532D46EB37 /* Pods_TigerTorqueForceMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerTorqueForceMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E532606F6EB55EE6BF1AB8 /* Pods-TigerTorqueForceMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTorqueForceMotion.debug.xcconfig"; path = "Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		93A8D38EF417B2E42B2D850C /* Pods-TigerTorqueForceMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTorqueForceMotion.release.xcconfig"; path = "Target Support Files/Pods-TigerTorqueForceMotion/Pods-TigerTorqueForceMotion.release.xcconfig"; sourceTree = "<group>"; };
+		FF8B29C72CCB97B400802C6B /* TigerTorqueForceMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerTorqueForceMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8B29DF2CCB97B900802C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8B29E02CCB97B900802C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8B29E12CCB97B900802C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8B29E22CCB97B900802C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8B29E42CCB97B900802C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8B29E62CCB97B900802C6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF8B29E72CCB97B900802C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8B29F02CCB9BE600802C6B /* IQActiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQActiveConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F12CCB9BE600802C6B /* IQBarButtonItemConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQBarButtonItemConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F22CCB9BE600802C6B /* IQKeyboardConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F32CCB9BE600802C6B /* IQRootControllerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQRootControllerConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F42CCB9BE600802C6B /* IQScrollViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQScrollViewConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F52CCB9BE600802C6B /* IQToolbarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQToolbarConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F62CCB9BE600802C6B /* IQToolbarPlaceholderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQToolbarPlaceholderConfiguration.swift; sourceTree = "<group>"; };
+		FF8B29F82CCB9BE600802C6B /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		FF8B29FA2CCB9BE600802C6B /* IQKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		FF8B29FB2CCB9BE600802C6B /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
+		FF8B29FC2CCB9BE600802C6B /* IQKeyboardManager+Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Deprecated.swift"; sourceTree = "<group>"; };
+		FF8B29FD2CCB9BE600802C6B /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
+		FF8B29FE2CCB9BE600802C6B /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
+		FF8B29FF2CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
+		FF8B2A002CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+ToolbarActions.swift"; sourceTree = "<group>"; };
+		FF8B2A012CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
+		FF8B2A022CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
+		FF8B2A042CCB9BE600802C6B /* IQKeyboardManagerCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerCompatible.swift; sourceTree = "<group>"; };
+		FF8B2A062CCB9BE600802C6B /* IQPlaceholderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQPlaceholderable.swift; sourceTree = "<group>"; };
+		FF8B2A072CCB9BE600802C6B /* IQTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		FF8B2A092CCB9BE600802C6B /* IQBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		FF8B2A0A2CCB9BE600802C6B /* IQInvocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		FF8B2A0B2CCB9BE600802C6B /* IQPreviousNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		FF8B2A0C2CCB9BE600802C6B /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		FF8B2A0D2CCB9BE600802C6B /* IQToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		FF8B2A0E2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		FF8B2A0F2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbarDeprecated.swift"; sourceTree = "<group>"; };
+		FF8B2A112CCB9BE600802C6B /* IQKeyboardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardInfo.swift; sourceTree = "<group>"; };
+		FF8B2A122CCB9BE600802C6B /* IQTextFieldViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTextFieldViewInfo.swift; sourceTree = "<group>"; };
+		FF8B2A142CCB9BE600802C6B /* IQKeyboardListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardListener.swift; sourceTree = "<group>"; };
+		FF8B2A152CCB9BE600802C6B /* IQTextFieldViewListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTextFieldViewListener.swift; sourceTree = "<group>"; };
+		FF8B2A172CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		FF8B2A182CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardReturnKeyHandler+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		FF8B2A192CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQKeyboardReturnKeyHandler+TextViewDelegate.swift"; sourceTree = "<group>"; };
+		FF8B2A1A2CCB9BE600802C6B /* IQTextFieldViewInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTextFieldViewInfoModel.swift; sourceTree = "<group>"; };
+		FF8B2A1C2CCB9BE600802C6B /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		FF8B2A1D2CCB9BE600802C6B /* IQUICollectionView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		FF8B2A1E2CCB9BE600802C6B /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		FF8B2A1F2CCB9BE600802C6B /* IQUITableView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUITableView+Additions.swift"; sourceTree = "<group>"; };
+		FF8B2A202CCB9BE600802C6B /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		FF8B2A212CCB9BE600802C6B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		FF8B2A222CCB9BE600802C6B /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		FF8B2A232CCB9BE600802C6B /* UIImage+NextPrevious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+NextPrevious.swift"; sourceTree = "<group>"; };
+		FF8B2A282CCB9BE600802C6B /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FF8B2A292CCB9BE600802C6B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FF8B2A2A2CCB9BE600802C6B /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A2B2CCB9BE600802C6B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FF8B2A2C2CCB9BE600802C6B /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A2D2CCB9BE600802C6B /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FF8B2A2E2CCB9BE600802C6B /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A2F2CCB9BE600802C6B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FF8B2A302CCB9BE600802C6B /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A312CCB9BE600802C6B /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FF8B2A322CCB9BE600802C6B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FF8B2A332CCB9BE600802C6B /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A342CCB9BE600802C6B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FF8B2A352CCB9BE600802C6B /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A362CCB9BE600802C6B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FF8B2A372CCB9BE600802C6B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF8B2A382CCB9BE600802C6B /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A392CCB9BE600802C6B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FF8B2A3A2CCB9BE600802C6B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2A3C2CCB9BE600802C6B /* KFDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFDesignable.swift; sourceTree = "<group>"; };
+		FF8B2A3D2CCB9BE600802C6B /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		FF8B2A3F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueCylinderFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2A402CCB9BE600802C6B /* TigerTorqueCylinderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueCylinderVC.swift; sourceTree = "<group>"; };
+		FF8B2A412CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueForceFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2A422CCB9BE600802C6B /* TigerTorqueForceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueForceVC.swift; sourceTree = "<group>"; };
+		FF8B2A432CCB9BE600802C6B /* TigerTorqueHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueHomeVC.swift; sourceTree = "<group>"; };
+		FF8B2A442CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueMetricFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2A452CCB9BE600802C6B /* TigerTorqueMetricVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueMetricVC.swift; sourceTree = "<group>"; };
+		FF8B2A462CCB9BE600802C6B /* TigerTorquePowerFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorquePowerFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2A472CCB9BE600802C6B /* TigerTorquePowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorquePowerVC.swift; sourceTree = "<group>"; };
+		FF8B2A482CCB9BE600802C6B /* TigerTorqueStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueStartVC.swift; sourceTree = "<group>"; };
+		FF8B2A492CCB9BE600802C6B /* TigerTorqueFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueFormulaVC.swift; sourceTree = "<group>"; };
+		FF8B2A4A2CCB9BE600802C6B /* TigerTorqueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueVC.swift; sourceTree = "<group>"; };
+		FF8B2A9C2CCB9C9B00802C6B /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		FF8B2A9E2CCB9CBE00802C6B /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		FF8B2AA02CCB9DA100802C6B /* TigerTorqueNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueNavigationController.swift; sourceTree = "<group>"; };
+		FF8B2AA42CCB9F4600802C6B /* TigerTorqueForceMotion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TigerTorqueForceMotion-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF8B2AA52CCB9F4600802C6B /* TigerTorquePrivacyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TigerTorquePrivacyVC.h; sourceTree = "<group>"; };
+		FF8B2AA62CCB9F4600802C6B /* TigerTorquePrivacyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerTorquePrivacyVC.m; sourceTree = "<group>"; };
+		FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastStyle.swift; sourceTree = "<group>"; };
+		FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
+		FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPosition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8B29C42CCB97B400802C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB33E3434BB6CCA1F65FEA98 /* Pods_TigerTorqueForceMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4263806D68F5EB92A02CF226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E532606F6EB55EE6BF1AB8 /* Pods-TigerTorqueForceMotion.debug.xcconfig */,
+				93A8D38EF417B2E42B2D850C /* Pods-TigerTorqueForceMotion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99915B7ACB711C5A4668074F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802F2AA0A00719532D46EB37 /* Pods_TigerTorqueForceMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8B29BE2CCB97B400802C6B = {
+			isa = PBXGroup;
+			children = (
+				FF8B29E82CCB97B900802C6B /* TigerTorqueForceMotion */,
+				FF8B29C82CCB97B400802C6B /* Products */,
+				4263806D68F5EB92A02CF226 /* Pods */,
+				99915B7ACB711C5A4668074F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8B29C82CCB97B400802C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29C72CCB97B400802C6B /* TigerTorqueForceMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8B29E82CCB97B900802C6B /* TigerTorqueForceMotion */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29DF2CCB97B900802C6B /* AppDelegate.swift */,
+				FF8B29E62CCB97B900802C6B /* SceneDelegate.swift */,
+				FF8B2AA02CCB9DA100802C6B /* TigerTorqueNavigationController.swift */,
+				FF8B2A482CCB9BE600802C6B /* TigerTorqueStartVC.swift */,
+				FF8B2AA52CCB9F4600802C6B /* TigerTorquePrivacyVC.h */,
+				FF8B2AA62CCB9F4600802C6B /* TigerTorquePrivacyVC.m */,
+				FF8B2A3E2CCB9BE600802C6B /* Helper */,
+				FF8B2A4E2CCB9BE600802C6B /* MVC */,
+				FF8B29E02CCB97B900802C6B /* Assets.xcassets */,
+				FF8B29E12CCB97B900802C6B /* Info.plist */,
+				FF8B29E32CCB97B900802C6B /* LaunchScreen.storyboard */,
+				FF8B29E52CCB97B900802C6B /* Main.storyboard */,
+				FF8B29E72CCB97B900802C6B /* ViewController.swift */,
+				FF8B2AA42CCB9F4600802C6B /* TigerTorqueForceMotion-Bridging-Header.h */,
+			);
+			path = TigerTorqueForceMotion;
+			sourceTree = "<group>";
+		};
+		FF8B29F72CCB9BE600802C6B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29F02CCB9BE600802C6B /* IQActiveConfiguration.swift */,
+				FF8B29F12CCB9BE600802C6B /* IQBarButtonItemConfiguration.swift */,
+				FF8B29F22CCB9BE600802C6B /* IQKeyboardConfiguration.swift */,
+				FF8B29F32CCB9BE600802C6B /* IQRootControllerConfiguration.swift */,
+				FF8B29F42CCB9BE600802C6B /* IQScrollViewConfiguration.swift */,
+				FF8B29F52CCB9BE600802C6B /* IQToolbarConfiguration.swift */,
+				FF8B29F62CCB9BE600802C6B /* IQToolbarPlaceholderConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		FF8B29F92CCB9BE600802C6B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29F82CCB9BE600802C6B /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FF8B2A032CCB9BE600802C6B /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29FA2CCB9BE600802C6B /* IQKeyboardManager.swift */,
+				FF8B29FB2CCB9BE600802C6B /* IQKeyboardManager+Debug.swift */,
+				FF8B29FC2CCB9BE600802C6B /* IQKeyboardManager+Deprecated.swift */,
+				FF8B29FD2CCB9BE600802C6B /* IQKeyboardManager+Internal.swift */,
+				FF8B29FE2CCB9BE600802C6B /* IQKeyboardManager+Position.swift */,
+				FF8B29FF2CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift */,
+				FF8B2A002CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift */,
+				FF8B2A012CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift */,
+				FF8B2A022CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		FF8B2A052CCB9BE600802C6B /* IQKeyboardManagerCompatible */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A042CCB9BE600802C6B /* IQKeyboardManagerCompatible.swift */,
+			);
+			path = IQKeyboardManagerCompatible;
+			sourceTree = "<group>";
+		};
+		FF8B2A082CCB9BE600802C6B /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A062CCB9BE600802C6B /* IQPlaceholderable.swift */,
+				FF8B2A072CCB9BE600802C6B /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		FF8B2A102CCB9BE600802C6B /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A092CCB9BE600802C6B /* IQBarButtonItem.swift */,
+				FF8B2A0A2CCB9BE600802C6B /* IQInvocation.swift */,
+				FF8B2A0B2CCB9BE600802C6B /* IQPreviousNextView.swift */,
+				FF8B2A0C2CCB9BE600802C6B /* IQTitleBarButtonItem.swift */,
+				FF8B2A0D2CCB9BE600802C6B /* IQToolbar.swift */,
+				FF8B2A0E2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbar.swift */,
+				FF8B2A0F2CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		FF8B2A132CCB9BE600802C6B /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A112CCB9BE600802C6B /* IQKeyboardInfo.swift */,
+				FF8B2A122CCB9BE600802C6B /* IQTextFieldViewInfo.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		FF8B2A162CCB9BE600802C6B /* LIsteners */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A132CCB9BE600802C6B /* Info */,
+				FF8B2A142CCB9BE600802C6B /* IQKeyboardListener.swift */,
+				FF8B2A152CCB9BE600802C6B /* IQTextFieldViewListener.swift */,
+			);
+			path = LIsteners;
+			sourceTree = "<group>";
+		};
+		FF8B2A1B2CCB9BE600802C6B /* ReturnKeyHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A172CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift */,
+				FF8B2A182CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift */,
+				FF8B2A192CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift */,
+				FF8B2A1A2CCB9BE600802C6B /* IQTextFieldViewInfoModel.swift */,
+			);
+			path = ReturnKeyHandler;
+			sourceTree = "<group>";
+		};
+		FF8B2A242CCB9BE600802C6B /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A1C2CCB9BE600802C6B /* IQNSArray+Sort.swift */,
+				FF8B2A1D2CCB9BE600802C6B /* IQUICollectionView+Additions.swift */,
+				FF8B2A1E2CCB9BE600802C6B /* IQUIScrollView+Additions.swift */,
+				FF8B2A1F2CCB9BE600802C6B /* IQUITableView+Additions.swift */,
+				FF8B2A202CCB9BE600802C6B /* IQUITextFieldView+Additions.swift */,
+				FF8B2A212CCB9BE600802C6B /* IQUIView+Hierarchy.swift */,
+				FF8B2A222CCB9BE600802C6B /* IQUIViewController+Additions.swift */,
+				FF8B2A232CCB9BE600802C6B /* UIImage+NextPrevious.swift */,
+			);
+			path = UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		FF8B2A262CCB9BE600802C6B /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B29F72CCB9BE600802C6B /* Configuration */,
+				FF8B29F92CCB9BE600802C6B /* Constants */,
+				FF8B2A032CCB9BE600802C6B /* IQKeyboardManager */,
+				FF8B2A052CCB9BE600802C6B /* IQKeyboardManagerCompatible */,
+				FF8B2A082CCB9BE600802C6B /* IQTextView */,
+				FF8B2A102CCB9BE600802C6B /* IQToolbar */,
+				FF8B2A162CCB9BE600802C6B /* LIsteners */,
+				FF8B2A1B2CCB9BE600802C6B /* ReturnKeyHandler */,
+				FF8B2A242CCB9BE600802C6B /* UIKitExtensions */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		FF8B2A3B2CCB9BE600802C6B /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A282CCB9BE600802C6B /* OFL.txt */,
+				FF8B2A292CCB9BE600802C6B /* Poppins-Black.ttf */,
+				FF8B2A2A2CCB9BE600802C6B /* Poppins-BlackItalic.ttf */,
+				FF8B2A2B2CCB9BE600802C6B /* Poppins-Bold.ttf */,
+				FF8B2A2C2CCB9BE600802C6B /* Poppins-BoldItalic.ttf */,
+				FF8B2A2D2CCB9BE600802C6B /* Poppins-ExtraBold.ttf */,
+				FF8B2A2E2CCB9BE600802C6B /* Poppins-ExtraBoldItalic.ttf */,
+				FF8B2A2F2CCB9BE600802C6B /* Poppins-ExtraLight.ttf */,
+				FF8B2A302CCB9BE600802C6B /* Poppins-ExtraLightItalic.ttf */,
+				FF8B2A312CCB9BE600802C6B /* Poppins-Italic.ttf */,
+				FF8B2A322CCB9BE600802C6B /* Poppins-Light.ttf */,
+				FF8B2A332CCB9BE600802C6B /* Poppins-LightItalic.ttf */,
+				FF8B2A342CCB9BE600802C6B /* Poppins-Medium.ttf */,
+				FF8B2A352CCB9BE600802C6B /* Poppins-MediumItalic.ttf */,
+				FF8B2A362CCB9BE600802C6B /* Poppins-Regular.ttf */,
+				FF8B2A372CCB9BE600802C6B /* Poppins-SemiBold.ttf */,
+				FF8B2A382CCB9BE600802C6B /* Poppins-SemiBoldItalic.ttf */,
+				FF8B2A392CCB9BE600802C6B /* Poppins-Thin.ttf */,
+				FF8B2A3A2CCB9BE600802C6B /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		FF8B2A3E2CCB9BE600802C6B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A262CCB9BE600802C6B /* IQKeyboardManagerSwift */,
+				FF8B2A3B2CCB9BE600802C6B /* Poppins */,
+				FF8B2A3C2CCB9BE600802C6B /* KFDesignable.swift */,
+				FF8B2A3D2CCB9BE600802C6B /* Toast.swift */,
+				FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */,
+				FF8B2A9C2CCB9C9B00802C6B /* GradiantView.swift */,
+				FF8B2A9E2CCB9CBE00802C6B /* DesignableView.swift */,
+				FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */,
+				FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FF8B2A4B2CCB9BE600802C6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A3F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift */,
+				FF8B2A402CCB9BE600802C6B /* TigerTorqueCylinderVC.swift */,
+				FF8B2A412CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift */,
+				FF8B2A422CCB9BE600802C6B /* TigerTorqueForceVC.swift */,
+				FF8B2A432CCB9BE600802C6B /* TigerTorqueHomeVC.swift */,
+				FF8B2A442CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift */,
+				FF8B2A452CCB9BE600802C6B /* TigerTorqueMetricVC.swift */,
+				FF8B2A462CCB9BE600802C6B /* TigerTorquePowerFormulaVC.swift */,
+				FF8B2A472CCB9BE600802C6B /* TigerTorquePowerVC.swift */,
+				FF8B2A492CCB9BE600802C6B /* TigerTorqueFormulaVC.swift */,
+				FF8B2A4A2CCB9BE600802C6B /* TigerTorqueVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF8B2A4C2CCB9BE600802C6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF8B2A4D2CCB9BE600802C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF8B2A4E2CCB9BE600802C6B /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2A4B2CCB9BE600802C6B /* Controller */,
+				FF8B2A4C2CCB9BE600802C6B /* Model */,
+				FF8B2A4D2CCB9BE600802C6B /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8B29C62CCB97B400802C6B /* TigerTorqueForceMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8B29DA2CCB97B500802C6B /* Build configuration list for PBXNativeTarget "TigerTorqueForceMotion" */;
+			buildPhases = (
+				D4F4B38D295CF36286D9CFF3 /* [CP] Check Pods Manifest.lock */,
+				FF8B29C32CCB97B400802C6B /* Sources */,
+				FF8B29C42CCB97B400802C6B /* Frameworks */,
+				FF8B29C52CCB97B400802C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TigerTorqueForceMotion;
+			productName = TigerTorqueForceMotion;
+			productReference = FF8B29C72CCB97B400802C6B /* TigerTorqueForceMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8B29BF2CCB97B400802C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF8B29C62CCB97B400802C6B = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = FF8B29C22CCB97B400802C6B /* Build configuration list for PBXProject "TigerTorqueForceMotion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8B29BE2CCB97B400802C6B;
+			productRefGroup = FF8B29C82CCB97B400802C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8B29C62CCB97B400802C6B /* TigerTorqueForceMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8B29C52CCB97B400802C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8B29EC2CCB97B900802C6B /* Assets.xcassets in Resources */,
+				FF8B29EE2CCB97B900802C6B /* LaunchScreen.storyboard in Resources */,
+				FF8B29EF2CCB97B900802C6B /* Main.storyboard in Resources */,
+				FF8B2A882CCB9BE600802C6B /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FF8B2A892CCB9BE600802C6B /* Poppins-SemiBold.ttf in Resources */,
+				FF8B2A8A2CCB9BE600802C6B /* Poppins-Bold.ttf in Resources */,
+				FF8B2A8B2CCB9BE600802C6B /* Poppins-ThinItalic.ttf in Resources */,
+				FF8B2A8C2CCB9BE600802C6B /* Poppins-Medium.ttf in Resources */,
+				FF8B2A8D2CCB9BE600802C6B /* Poppins-LightItalic.ttf in Resources */,
+				FF8B2A8E2CCB9BE600802C6B /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FF8B2A8F2CCB9BE600802C6B /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FF8B2A902CCB9BE600802C6B /* Poppins-Thin.ttf in Resources */,
+				FF8B2A912CCB9BE600802C6B /* Poppins-MediumItalic.ttf in Resources */,
+				FF8B2A922CCB9BE600802C6B /* OFL.txt in Resources */,
+				FF8B2A932CCB9BE600802C6B /* Poppins-Regular.ttf in Resources */,
+				FF8B2A942CCB9BE600802C6B /* Poppins-ExtraLight.ttf in Resources */,
+				FF8B2A952CCB9BE600802C6B /* Poppins-BoldItalic.ttf in Resources */,
+				FF8B2A962CCB9BE600802C6B /* Poppins-Italic.ttf in Resources */,
+				FF8B2A982CCB9BE600802C6B /* Poppins-Light.ttf in Resources */,
+				FF8B2A992CCB9BE600802C6B /* Poppins-BlackItalic.ttf in Resources */,
+				FF8B2A9A2CCB9BE600802C6B /* Poppins-Black.ttf in Resources */,
+				FF8B2A9B2CCB9BE600802C6B /* Poppins-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4F4B38D295CF36286D9CFF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TigerTorqueForceMotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8B29C32CCB97B400802C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8B29E92CCB97B900802C6B /* AppDelegate.swift in Sources */,
+				FF8B29EA2CCB97B900802C6B /* SceneDelegate.swift in Sources */,
+				FF8B29EB2CCB97B900802C6B /* ViewController.swift in Sources */,
+				FF8B2A4F2CCB9BE600802C6B /* IQToolbarPlaceholderConfiguration.swift in Sources */,
+				FF8B2A502CCB9BE600802C6B /* IQKeyboardListener.swift in Sources */,
+				FF8B2A512CCB9BE600802C6B /* IQPlaceholderable.swift in Sources */,
+				FF8B2A522CCB9BE600802C6B /* IQKeyboardInfo.swift in Sources */,
+				FF8B2A532CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift in Sources */,
+				FF8B2A542CCB9BE600802C6B /* KFDesignable.swift in Sources */,
+				FF8B2AAD2CCBA09B00802C6B /* ToastPosition.swift in Sources */,
+				FF8B2A552CCB9BE600802C6B /* TigerTorqueMetricVC.swift in Sources */,
+				FF8B2A562CCB9BE600802C6B /* IQBarButtonItem.swift in Sources */,
+				FF8B2A572CCB9BE600802C6B /* TigerTorqueForceVC.swift in Sources */,
+				FF8B2A582CCB9BE600802C6B /* IQToolbarConfiguration.swift in Sources */,
+				FF8B2A592CCB9BE600802C6B /* UIImage+NextPrevious.swift in Sources */,
+				FF8B2A5A2CCB9BE600802C6B /* IQTextFieldViewInfo.swift in Sources */,
+				FF8B2A5B2CCB9BE600802C6B /* IQToolbar.swift in Sources */,
+				FF8B2A5C2CCB9BE600802C6B /* IQBarButtonItemConfiguration.swift in Sources */,
+				FF8B2A5D2CCB9BE600802C6B /* IQInvocation.swift in Sources */,
+				FF8B2A5E2CCB9BE600802C6B /* IQKeyboardManager+Deprecated.swift in Sources */,
+				FF8B2A5F2CCB9BE600802C6B /* TigerTorqueCylinderFormulaVC.swift in Sources */,
+				FF8B2A602CCB9BE600802C6B /* IQActiveConfiguration.swift in Sources */,
+				FF8B2A612CCB9BE600802C6B /* TigerTorquePowerFormulaVC.swift in Sources */,
+				FF8B2A622CCB9BE600802C6B /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				FF8B2A632CCB9BE600802C6B /* TigerTorqueForceFormulaVC.swift in Sources */,
+				FF8B2A642CCB9BE600802C6B /* TigerTorqueVC.swift in Sources */,
+				FF8B2A652CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
+				FF8B2A662CCB9BE600802C6B /* IQKeyboardManager+Debug.swift in Sources */,
+				FF8B2AAB2CCBA07B00802C6B /* ToastManager.swift in Sources */,
+				FF8B2A672CCB9BE600802C6B /* IQKeyboardManagerConstants.swift in Sources */,
+				FF8B2AA12CCB9DA100802C6B /* TigerTorqueNavigationController.swift in Sources */,
+				FF8B2A682CCB9BE600802C6B /* TigerTorqueCylinderVC.swift in Sources */,
+				FF8B2A692CCB9BE600802C6B /* IQKeyboardManagerCompatible.swift in Sources */,
+				FF8B2A6A2CCB9BE600802C6B /* TigerTorquePowerVC.swift in Sources */,
+				FF8B2A6B2CCB9BE600802C6B /* TigerTorqueHomeVC.swift in Sources */,
+				FF8B2A9D2CCB9C9C00802C6B /* GradiantView.swift in Sources */,
+				FF8B2A6C2CCB9BE600802C6B /* TigerTorqueStartVC.swift in Sources */,
+				FF8B2AA72CCB9F4600802C6B /* TigerTorquePrivacyVC.m in Sources */,
+				FF8B2A6D2CCB9BE600802C6B /* IQUIViewController+Additions.swift in Sources */,
+				FF8B2A6E2CCB9BE600802C6B /* IQTextFieldViewListener.swift in Sources */,
+				FF8B2A6F2CCB9BE600802C6B /* IQUITextFieldView+Additions.swift in Sources */,
+				FF8B2A702CCB9BE600802C6B /* IQUIScrollView+Additions.swift in Sources */,
+				FF8B2A9F2CCB9CBF00802C6B /* DesignableView.swift in Sources */,
+				FF8B2A712CCB9BE600802C6B /* IQScrollViewConfiguration.swift in Sources */,
+				FF8B2A722CCB9BE600802C6B /* IQTextFieldViewInfoModel.swift in Sources */,
+				FF8B2A732CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift in Sources */,
+				FF8B2A742CCB9BE600802C6B /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */,
+				FF8B2A752CCB9BE600802C6B /* IQKeyboardManager+Position.swift in Sources */,
+				FF8B2A762CCB9BE600802C6B /* TigerTorqueFormulaVC.swift in Sources */,
+				FF8B2A772CCB9BE600802C6B /* IQUICollectionView+Additions.swift in Sources */,
+				FF8B2A782CCB9BE600802C6B /* IQRootControllerConfiguration.swift in Sources */,
+				FF8B2A792CCB9BE600802C6B /* IQUITableView+Additions.swift in Sources */,
+				FF8B2A7A2CCB9BE600802C6B /* TigerTorqueMetricFormulaVC.swift in Sources */,
+				FF8B2A7B2CCB9BE600802C6B /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
+				FF8B2A7C2CCB9BE600802C6B /* IQNSArray+Sort.swift in Sources */,
+				FF8B2A7D2CCB9BE600802C6B /* IQKeyboardManager+ToolbarActions.swift in Sources */,
+				FF8B2A7E2CCB9BE600802C6B /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift in Sources */,
+				FF8B2A7F2CCB9BE600802C6B /* IQTextView.swift in Sources */,
+				FF8B2A802CCB9BE600802C6B /* IQKeyboardConfiguration.swift in Sources */,
+				FF8B2A812CCB9BE600802C6B /* IQKeyboardManager+Internal.swift in Sources */,
+				FF8B2A822CCB9BE600802C6B /* IQUIView+Hierarchy.swift in Sources */,
+				FF8B2A832CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				FF8B2AA92CCBA05500802C6B /* ToastStyle.swift in Sources */,
+				FF8B2A842CCB9BE600802C6B /* IQTitleBarButtonItem.swift in Sources */,
+				FF8B2A852CCB9BE600802C6B /* IQPreviousNextView.swift in Sources */,
+				FF8B2A862CCB9BE600802C6B /* IQKeyboardManager.swift in Sources */,
+				FF8B2A872CCB9BE600802C6B /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF8B29E32CCB97B900802C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8B29E22CCB97B900802C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8B29E52CCB97B900802C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8B29E42CCB97B900802C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8B29DB2CCB97B500802C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E532606F6EB55EE6BF1AB8 /* Pods-TigerTorqueForceMotion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TigerTorqueForceMotion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Torque ForceMotion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TigerTorqueForceMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TigerTorqueForceMotion/TigerTorqueForceMotion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF8B29DC2CCB97B500802C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A8D38EF417B2E42B2D850C /* Pods-TigerTorqueForceMotion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TigerTorqueForceMotion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Torque ForceMotion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TigerTorqueForceMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TigerTorqueForceMotion/TigerTorqueForceMotion-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF8B29DD2CCB97B500802C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF8B29DE2CCB97B500802C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8B29C22CCB97B400802C6B /* Build configuration list for PBXProject "TigerTorqueForceMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8B29DD2CCB97B500802C6B /* Debug */,
+				FF8B29DE2CCB97B500802C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8B29DA2CCB97B500802C6B /* Build configuration list for PBXNativeTarget "TigerTorqueForceMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8B29DB2CCB97B500802C6B /* Debug */,
+				FF8B29DC2CCB97B500802C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8B29BF2CCB97B400802C6B /* Project object */;
+}
