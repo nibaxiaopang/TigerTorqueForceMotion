@@ -9,14 +9,14 @@ import UIKit
 
 //MARK: - ToastPosition
 
-public enum ToastPosition {
+public enum TigerTorqueToastPosition {
     case top
     case center
     case bottom
     
     func centerPoint(forToast toast: UIView, inSuperview superview: UIView) -> CGPoint {
-        let topPadding: CGFloat = ToastManager.shared.style.verticalPadding + superview.csSafeAreaInsets.top
-        let bottomPadding: CGFloat = ToastManager.shared.style.verticalPadding + superview.csSafeAreaInsets.bottom
+        let topPadding: CGFloat = TigerTorqueToastManager.shared.style.verticalPadding + superview.csSafeAreaInsets.top
+        let bottomPadding: CGFloat = TigerTorqueToastManager.shared.style.verticalPadding + superview.csSafeAreaInsets.bottom
         
         switch self {
         case .top:

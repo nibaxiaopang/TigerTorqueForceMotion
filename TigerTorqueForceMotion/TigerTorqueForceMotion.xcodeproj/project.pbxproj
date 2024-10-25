@@ -94,9 +94,9 @@
 		FF8B2A9F2CCB9CBF00802C6B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2A9E2CCB9CBE00802C6B /* DesignableView.swift */; };
 		FF8B2AA12CCB9DA100802C6B /* TigerTorqueNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA02CCB9DA100802C6B /* TigerTorqueNavigationController.swift */; };
 		FF8B2AA72CCB9F4600802C6B /* TigerTorquePrivacyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA62CCB9F4600802C6B /* TigerTorquePrivacyVC.m */; };
-		FF8B2AA92CCBA05500802C6B /* ToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */; };
-		FF8B2AAB2CCBA07B00802C6B /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */; };
-		FF8B2AAD2CCBA09B00802C6B /* ToastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */; };
+		FF8B2AA92CCBA05500802C6B /* TigerTorqueToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AA82CCBA05400802C6B /* TigerTorqueToastStyle.swift */; };
+		FF8B2AAB2CCBA07B00802C6B /* TigerTorqueToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAA2CCBA07900802C6B /* TigerTorqueToastManager.swift */; };
+		FF8B2AAD2CCBA09B00802C6B /* TigerTorqueToastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AAC2CCBA09B00802C6B /* TigerTorqueToastPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -193,9 +193,9 @@
 		FF8B2AA42CCB9F4600802C6B /* TigerTorqueForceMotion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TigerTorqueForceMotion-Bridging-Header.h"; sourceTree = "<group>"; };
 		FF8B2AA52CCB9F4600802C6B /* TigerTorquePrivacyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TigerTorquePrivacyVC.h; sourceTree = "<group>"; };
 		FF8B2AA62CCB9F4600802C6B /* TigerTorquePrivacyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerTorquePrivacyVC.m; sourceTree = "<group>"; };
-		FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastStyle.swift; sourceTree = "<group>"; };
-		FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
-		FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPosition.swift; sourceTree = "<group>"; };
+		FF8B2AA82CCBA05400802C6B /* TigerTorqueToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastStyle.swift; sourceTree = "<group>"; };
+		FF8B2AAA2CCBA07900802C6B /* TigerTorqueToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastManager.swift; sourceTree = "<group>"; };
+		FF8B2AAC2CCBA09B00802C6B /* TigerTorqueToastPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerTorqueToastPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,11 +429,11 @@
 				FF8B2A3B2CCB9BE600802C6B /* Poppins */,
 				FF8B2A3C2CCB9BE600802C6B /* KFDesignable.swift */,
 				FF8B2A3D2CCB9BE600802C6B /* Toast.swift */,
-				FF8B2AA82CCBA05400802C6B /* ToastStyle.swift */,
+				FF8B2AA82CCBA05400802C6B /* TigerTorqueToastStyle.swift */,
 				FF8B2A9C2CCB9C9B00802C6B /* GradiantView.swift */,
 				FF8B2A9E2CCB9CBE00802C6B /* DesignableView.swift */,
-				FF8B2AAA2CCBA07900802C6B /* ToastManager.swift */,
-				FF8B2AAC2CCBA09B00802C6B /* ToastPosition.swift */,
+				FF8B2AAA2CCBA07900802C6B /* TigerTorqueToastManager.swift */,
+				FF8B2AAC2CCBA09B00802C6B /* TigerTorqueToastPosition.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -606,7 +606,7 @@
 				FF8B2A522CCB9BE600802C6B /* IQKeyboardInfo.swift in Sources */,
 				FF8B2A532CCB9BE600802C6B /* IQKeyboardManager+Toolbar.swift in Sources */,
 				FF8B2A542CCB9BE600802C6B /* KFDesignable.swift in Sources */,
-				FF8B2AAD2CCBA09B00802C6B /* ToastPosition.swift in Sources */,
+				FF8B2AAD2CCBA09B00802C6B /* TigerTorqueToastPosition.swift in Sources */,
 				FF8B2A552CCB9BE600802C6B /* TigerTorqueMetricVC.swift in Sources */,
 				FF8B2A562CCB9BE600802C6B /* IQBarButtonItem.swift in Sources */,
 				FF8B2A572CCB9BE600802C6B /* TigerTorqueForceVC.swift in Sources */,
@@ -625,7 +625,7 @@
 				FF8B2A642CCB9BE600802C6B /* TigerTorqueVC.swift in Sources */,
 				FF8B2A652CCB9BE600802C6B /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
 				FF8B2A662CCB9BE600802C6B /* IQKeyboardManager+Debug.swift in Sources */,
-				FF8B2AAB2CCBA07B00802C6B /* ToastManager.swift in Sources */,
+				FF8B2AAB2CCBA07B00802C6B /* TigerTorqueToastManager.swift in Sources */,
 				FF8B2A672CCB9BE600802C6B /* IQKeyboardManagerConstants.swift in Sources */,
 				FF8B2AA12CCB9DA100802C6B /* TigerTorqueNavigationController.swift in Sources */,
 				FF8B2A682CCB9BE600802C6B /* TigerTorqueCylinderVC.swift in Sources */,
@@ -659,7 +659,7 @@
 				FF8B2A812CCB9BE600802C6B /* IQKeyboardManager+Internal.swift in Sources */,
 				FF8B2A822CCB9BE600802C6B /* IQUIView+Hierarchy.swift in Sources */,
 				FF8B2A832CCB9BE600802C6B /* IQKeyboardReturnKeyHandler.swift in Sources */,
-				FF8B2AA92CCBA05500802C6B /* ToastStyle.swift in Sources */,
+				FF8B2AA92CCBA05500802C6B /* TigerTorqueToastStyle.swift in Sources */,
 				FF8B2A842CCB9BE600802C6B /* IQTitleBarButtonItem.swift in Sources */,
 				FF8B2A852CCB9BE600802C6B /* IQPreviousNextView.swift in Sources */,
 				FF8B2A862CCB9BE600802C6B /* IQKeyboardManager.swift in Sources */,

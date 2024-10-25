@@ -9,7 +9,7 @@ import UIKit
 
 //MARK: - Toast Style
 
-public struct ToastStyle {
+public struct TigerTorqueToastStyle {
     
     public init() {}
     

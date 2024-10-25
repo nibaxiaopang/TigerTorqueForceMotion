@@ -10,11 +10,11 @@ import UIKit
 
 //MARK: - Toast Manager
 
-public class ToastManager {
+public class TigerTorqueToastManager {
     
-    public static let shared = ToastManager()
+    public static let shared = TigerTorqueToastManager()
     
-    public var style = ToastStyle()
+    public var style = TigerTorqueToastStyle()
     
     public var isTapToDismissEnabled = true
     
@@ -22,6 +22,6 @@ public class ToastManager {
     
     public var duration: TimeInterval = 3.0
     
-    public var position: ToastPosition = .bottom
+    public var position: TigerTorqueToastPosition = .bottom
     
 }
